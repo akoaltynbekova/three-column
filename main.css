@@ -11,27 +11,26 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
-body{
-    
-}
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    margin-left: 13rem;
-    margin-right: 13rem;
-    padding: 7rem;
+    margin-left: 9rem;
+    margin-right: 9rem;
+    padding: 5rem;
 }
 
 .sedans{
     background: hsl(31, 77%, 52%);
     position: relative;
     padding: 3rem;
+    border-top-left-radius: .7rem;
+    border-bottom-left-radius: .7rem;
 }
 
 .suvs{
@@ -43,11 +42,12 @@ body{
 .luxury{
     background: hsl(179, 100%, 13%);
     position: relative;
-    padding: 3rem;
+    padding: 3rem;    
+    border-top-right-radius: .7rem;
+    border-bottom-right-radius: .7rem;
 }
 
 img{
-    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
@@ -85,7 +85,7 @@ button{
     border: 0;
     cursor: pointer;
     padding: 14px;
-    width: 150px;
+    width: 9rem;
     bottom: 45px;
     margin-bottom: 2rem;
     font-weight: 700;
